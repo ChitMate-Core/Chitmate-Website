@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Join the ChitMate waitlist and follow ChitMate on Discord, Reddit, YouTube, Facebook, and Instagram." />
+  <meta name="theme-color" content="#1167ef" />
+  <meta property="og:title" content="Join the ChitMate waitlist" />
+  <meta property="og:description" content="Get early ChitMate updates and follow the community across social channels." />
+  <meta property="og:image" content="assets/analytics-feature.png" />
+  <title>Join the Waitlist — ChitMate</title>
+  <link rel="icon" href="assets/chitmate-logo.png" />
+  <link rel="stylesheet" href="styles.css?v=20260617" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="ChitMate home">
+      <img src="assets/chitmate-logo.png" alt="ChitMate logo" />
+      <span>ChitMate</span>
+    </a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#how-it-works">How it works</a>
+      <a href="index.html#trust">Trust</a>
+      <a href="index.html#crowdfunding">Crowdfunding</a>
+      <a href="index.html#faq">FAQ</a>
+      <a class="button button-small" href="waitlist.html">Join waitlist</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="section waitlist-page">
+      <div class="waitlist-page-copy reveal">
+        <div class="eyebrow"><span></span> Early access</div>
+        <h1>Join the ChitMate waitlist.</h1>
+        <p>Get launch updates, beta news, and community announcements as ChitMate gets closer to release.</p>
+        <div class="social-links" aria-label="ChitMate social links">
+          <a class="social-link discord" href="https://discord.com/" target="_blank" rel="noopener">Discord</a>
+          <a class="social-link reddit" href="https://www.reddit.com/" target="_blank" rel="noopener">Reddit</a>
+          <a class="social-link youtube" href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
+          <a class="social-link facebook" href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+          <a class="social-link instagram" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+
+      <div class="waitlist-card waitlist-page-card reveal">
+        <div>
+          <div class="eyebrow light"><span></span> Save your spot</div>
+          <h2>Be first in the circle.</h2>
+          <p>Leave your details and we will send only meaningful product updates.</p>
+        </div>
+        <form name="waitlist" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="waitlist-form">
+          <input type="hidden" name="form-name" value="waitlist" />
+          <p class="hidden"><label>Don’t fill this out: <input name="bot-field" /></label></p>
+          <label><span>Name</span><input required name="name" type="text" placeholder="Your name" /></label>
+          <label><span>Email</span><input required name="email" type="email" placeholder="you@example.com" /></label>
+          <button class="button button-white" type="submit">Join the waitlist</button>
+          <small id="form-message">No spam. Only meaningful launch updates.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="index.html"><img src="assets/chitmate-logo.png" alt="" /><span>ChitMate</span></a>
+    <p>Save together. Grow together.</p>
+    <div><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:hello@yourdomain.com">Contact</a></div>
+    <small>© <span id="year"></span> ChitMate. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js?v=20260617"></script>
+</body>
+</html>
